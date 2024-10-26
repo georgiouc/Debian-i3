@@ -1,0 +1,2 @@
+Make power_menu executable by running : chmod +x ~/.config/i3/power_menu.sh
+Configure nitrogen by running it and addint wallpaper from properties.
