@@ -1,2 +1,5 @@
-Make power_menu executable by running : chmod +x ~/.config/i3/power_menu.sh
-Configure nitrogen by running it and addint wallpaper from properties.
+1) cd into git repo (Debian-i3) directory and make dependencies.sh executable by running : chmod +x dependencies.sh 
+2) Run dependencies.sh
+3) Move contents of .config files into your .config folder
+4) Make power_menu executable by running : chmod +x ~/.config/i3/power_menu.sh
+5) Configure nitrogen by running it and adding your desired wallpaper from the properties menu
