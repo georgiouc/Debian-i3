@@ -196,19 +196,24 @@ bar {
 #///////////////////////////////////////////////////////////////////////////////////////////////////////
 # Remove window borders
 # new_window none
+
 #///////////////////////////
 # Set border width for new windows
-#new_window pixel 2 
+# new_window pixel 2
 
 #Set default border colors
-#class                 border  backgr. text    indicator child_border
-client.focused          #ffffff #285577 #ffffff #2e9ef4   #285577
-client.focused_inactive #ffffff #5f676a #ffffff #484e50   #5f676a
-client.unfocused        #ffffff #222222 #888888 #292d2e   #222222
-client.urgent           #ffffff #900000 #ffffff #900000   #900000
-client.placeholder      #ffffff #0c0c0c #ffffff #000000   #0c0c0c
+# class                 border  backgr. text    indicator child_border
+#client.focused          #ffffff #285577 #ffffff #2e9ef4   #285577
+#client.focused_inactive #ffffff #5f676a #ffffff #484e50   #5f676a
+#client.unfocused        #ffffff #222222 #888888 #292d2e   #222222
+#client.urgent           #ffffff #900000 #ffffff #900000   #900000
+#client.placeholder      #ffffff #0c0c0c #ffffff #000000   #0c0c0c
+client.focused          #000000 #000000 #000000 #000000
+client.unfocused        #000000 #000000 #000000 #000000
 
-client.background       #ffffff
+for_window [class=".*"] border pixel 1
+
+#client.background       #ffffff
 
 # Set a different border color (for example, green)
 # You can set this as you prefer, but here's an example:
