@@ -1,0 +1,21 @@
+Start by Installing Snap, by doing sudo apt install snapd
+
+Then install bluemail, by doing sudo snap install bluemail
+
+You can run it, by doing snap run bluemail
+
+Or alternatively do this to create Symlink, sudo ln -s /snap/bin/bluemail /usr/local/bin/bluemail
+
+And add to dmenu: do, sudo nano /usr/share/applications/bluemail.desktop 
+to open nano and then paste this in and save : 
+
+[Desktop Entry]
+Name=BlueMail
+Exec=snap run bluemail
+Type=Application
+Icon=/snap/bluemail/current/meta/gui/icon.png
+Categories=Network;Email;
+
+now restart window manager or dmenu 
+ 
+
