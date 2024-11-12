@@ -240,7 +240,7 @@ bindsym $mod+Shift+p exec ~/.config/i3/power_menu.sh
 # Lockscreen
 bindsym $mod+Shift+x exec i3lock -c 000000
 ############################################################################
-##################### PULSE AUDIO ##########################################
+##################### F-Key Keybind ##########################################
 
 # Launch Brave Browser
 bindsym $mod+F1 exec brave-browser 
@@ -248,8 +248,20 @@ bindsym $mod+F1 exec brave-browser
 # Launch Thunar file manager
 bindsym $mod+F2 exec thunar
 
+#Launch BlueMail
+bindsym $mod+F3 exec bluemail
+
 #Launch Firefox-{Chat-GPT}
-bindsym $mod+F3 exec firefox
+bindsym $mod+F4 exec firefox
+
+###############################################################################
+############################# Flameshot (Snap-Tool) ###########################
+
+#Bind it to Mod + Shift + s
+bindsym $mod+Shift+s exec flameshot gui
+
+#Enable at Start-Up
+exec --no-startup-id flameshot &
 
 #############################################################################
 # Wallpaper
